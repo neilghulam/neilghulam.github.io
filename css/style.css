@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    
+    padding: 30px;
+    
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(163, 163, 163, 0.801), rgba(54, 54, 54, 0.801)), url(../background/IMG_0760.png);
+    background-size: cover;
+    position: relative;
+
+}
+
+.name-box {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: black;
+}
+.title-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.heading-primary {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.heading-primary-main {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.project-box {
+    position: absolute;
+    
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%);
+    width: fit-content;
+    
+}
+
+/* Clearfix (clear floats) */
+.project-box::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.box {
+    margin: 25px;
+    padding: 10px;
+    border: 5px bold black;
+    background-color: rgba(255, 255, 255, 0.5);
+    float: left;
+    border-radius: 10px;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media screen and (max-width: 500px) {
+    .name-box {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .name {
+        display: block;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        color: black;
+    }
+
+    .title-box {
+        position: absolute;
+        top: 130px;
+        left: 50%;
+        transform: translate(-50%,)
+    }
+    
+    .heading-primary {
+        color: white;
+        text-transform: uppercase;
+    
+    }
+    
+    .heading-primary-main {
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+
+   
+
+   .project-box {
+    position: absolute;
+    
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%);
+    width: fit-content;
+   }
+
+    .header {
+        background-image: linear-gradient(to right bottom, rgba(163, 163, 163, 0.801), rgba(54, 54, 54, 0.801)), url(../background/IMG_0760.png);
+        min-height: 2000px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+}
