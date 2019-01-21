@@ -18,7 +18,7 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(219, 219, 219, 0.856), rgba(110, 110, 110, 0.856)), url(../background/IMG_0760.png);
+    background-image: linear-gradient(to right bottom, rgba(219, 219, 219, 0.856), rgba(92, 92, 92, 0.856)), url(../background/IMG_0760.png);
     background-size: cover;
     position: relative;
 
