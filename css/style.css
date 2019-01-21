@@ -18,7 +18,7 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(163, 163, 163, 0.856), rgba(54, 54, 54, 0.856)), url(../background/IMG_0760.png);
+    background-image: linear-gradient(to right bottom, rgba(219, 219, 219, 0.856), rgba(110, 110, 110, 0.856)), url(../background/IMG_0760.png);
     background-size: cover;
     position: relative;
 
@@ -85,7 +85,7 @@ body {
 .box {
     margin: 25px;
     padding: 10px;
-    background-color: rgba(25, 77, 126, 0.616);
+    background-color: rgba(226, 226, 226, 0.705);
     float: left;
     border-radius: 10px;
     width: 270px;
@@ -117,7 +117,7 @@ a:link {
   }
 
   .webs:hover, .github:hover {
-      background-color: lightskyblue;
+      background-color: rgba(219, 219, 219, 0.856);
       border-radius: 5px;
   }
 
