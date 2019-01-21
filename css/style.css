@@ -68,7 +68,6 @@ body {
 
 .project-box {
     position: absolute;
-    
     top: 280px;
     left: 50%;
     transform: translate(-50%);
@@ -86,13 +85,15 @@ body {
 .box {
     margin: 25px;
     padding: 10px;
-    border: 5px bold black;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(45, 127, 204, 0.5);
     float: left;
     border-radius: 10px;
     width: 270px;
-   
+    height: 350px;
+}
 
+.pic {
+    border-radius: 5px;
 }
 
 a:link {
@@ -115,8 +116,9 @@ a:link {
     font-weight: bold;
   }
 
-  .webs:hover {
+  .webs:hover, .github:hover {
       background-color: lightskyblue;
+      border-radius: 5px;
   }
 
   .info {
