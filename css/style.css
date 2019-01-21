@@ -117,7 +117,7 @@ a:link {
   }
 
   .webs:hover, .github:hover {
-      background-color: rgba(219, 219, 219, 0.856);
+      background-color: rgba(255, 255, 255, 0.856);
       border-radius: 5px;
   }
 
