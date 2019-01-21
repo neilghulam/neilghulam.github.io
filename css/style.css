@@ -140,7 +140,7 @@ a:link {
 @media screen and (max-width: 1024px) {
     .header {
         background-image: linear-gradient(to right bottom, rgba(163, 163, 163, 0.801), rgba(54, 54, 54, 0.801)), url(../background/IMG_0760.png);
-        min-height: 2000px;
+        min-height: 1200px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -274,7 +274,7 @@ a:link {
 
     .header {
         background-image: linear-gradient(to right bottom, rgba(163, 163, 163, 0.801), rgba(54, 54, 54, 0.801)), url(../background/IMG_0760.png);
-        min-height: 1200px;
+        min-height: 1000px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
