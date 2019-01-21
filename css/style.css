@@ -165,7 +165,7 @@ a:link {
 
     .title-box {
         position: absolute;
-        top: 200px;
+        top: 220px;
         left: 50%;
         transform: translate(-50%,);
     }
@@ -186,7 +186,7 @@ a:link {
    .project-box {
         position: absolute;
 
-        top: 260px;
+        top: 220px;
         left: 50%;
         transform: translate(-50%);
         width: fit-content;
@@ -274,7 +274,7 @@ a:link {
 
     .header {
         background-image: linear-gradient(to right bottom, rgba(163, 163, 163, 0.801), rgba(54, 54, 54, 0.801)), url(../background/IMG_0760.png);
-        min-height: 2000px;
+        min-height: 1200px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
